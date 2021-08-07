@@ -55,6 +55,12 @@ public class Route {
      */
     private int order = 0;
 
+    /**
+     * 是否是通过引入starter依赖添加的配置，用于判断是否要进行心跳检查
+     */
+    private boolean isStarter = true;
+
+
 
     public Route(String text) {
         /**
