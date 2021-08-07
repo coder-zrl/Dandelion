@@ -1,6 +1,6 @@
-package fedian.cloud.gateway.predicate.factory;
+package fedian.cloud.dandelion.predicate.factory;
 
-import fedian.cloud.gateway.utils.NameUtils;
+import fedian.cloud.dandelion.utils.NameUtils;
 
 import java.util.function.Consumer;
 

@@ -1,13 +1,12 @@
-package fedian.cloud.gateway.filter.filters;
+package fedian.cloud.dandelion.filter.filters;
 
-import fedian.cloud.gateway.utils.NameUtils;
+import fedian.cloud.dandelion.utils.NameUtils;
 import lombok.Data;
 import org.springframework.validation.annotation.Validated;
 
 import javax.validation.constraints.NotNull;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Objects;
 
 import static org.springframework.util.StringUtils.tokenizeToStringArray;
 

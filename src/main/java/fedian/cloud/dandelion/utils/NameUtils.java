@@ -1,6 +1,6 @@
-package fedian.cloud.gateway.utils;
+package fedian.cloud.dandelion.utils;
 
-import fedian.cloud.gateway.predicate.factory.RoutePredicateFactory;
+import fedian.cloud.dandelion.predicate.factory.RoutePredicateFactory;
 
 /**
  * @author zrl

@@ -1,8 +1,8 @@
-package fedian.cloud.gateway.route;
+package fedian.cloud.dandelion.route;
 
 import com.sun.istack.internal.NotNull;
-import fedian.cloud.gateway.filter.filters.Filter;
-import fedian.cloud.gateway.predicate.predicate.Predicate;
+import fedian.cloud.dandelion.filter.filters.Filter;
+import fedian.cloud.dandelion.predicate.predicate.Predicate;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.validation.annotation.Validated;

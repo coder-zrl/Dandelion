@@ -1,6 +1,6 @@
-package fedian.cloud.gateway.predicate.predicate;
+package fedian.cloud.dandelion.predicate.predicate;
 
-import fedian.cloud.gateway.utils.NameUtils;
+import fedian.cloud.dandelion.utils.NameUtils;
 import lombok.Data;
 import org.springframework.validation.annotation.Validated;
 
