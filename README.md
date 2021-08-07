@@ -1,18 +1,14 @@
-# 网关组件的通用功能
+# 项目命名
 
-所谓的AP网关,就是指系统的统入口，它封装了应用程序的内部结构，为客户端提供统一服务，一些与业务本身功能无关的公共逻辑可以在这里实现，诸如认证、鉴权、监控、限流、跨域、路由转发等等。
 
-- 统一对外接口： 当用户需要集成不同产品或者服务之间的功能，调用不同服务提供的能力。利用APIGateway可以让用户在不感知服务边缘的情况下，利用统一的接口组装服务。 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/211f8a3a0d6645d397656702204f1218.png)
 
-- 统一鉴权: 通过APIGateway对访问进行统一鉴权，不需要每个应用单独对调用方进行鉴权，应用可以专注业务。
 
-- 服务注册与授权： 可以控制调用方可以使用和不可以使用的服务。
+Dandelion是蒲公英的意思，蒲公英的形状与网关组件在服务中的地位类似，茎部代表用户入口，绒毛代表服务，网关的内部逻辑就是连接的部分
 
-- 服务限流: 通过APIGateway可以对调用方调用每个接口的每日调用及总调用次数限制
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2daae5e734f943ddac23c408d995d350.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzQ2NTIxNzg1,size_16,color_FFFFFF,t_70)
 
-- 全链路跟踪： 通过APIGateway提供的唯一请求Id，监控调用流程，以及调用的响应时间
 
-- 实现客户端的负载均衡策略
 
 # 本次网关组件设计简介
 
@@ -21,14 +17,6 @@
 网关组件会做成网页的形式，方便配置，由前端同学配合。配置分为三种类型：服务注册到网关组件服务器、用户在网页手动添加配置、从注册中心拉取服务名用户再添加配置（从设计上不打算添加这个功能）
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/5547d6fd32084757b5c42439245d482c.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzQ2NTIxNzg1,size_16,color_FFFFFF,t_70)
-
-# 项目命名
-
-<center><font size=12>Dandelion</font></center>
-
-Dandelion是蒲公英的意思，蒲公英的形状与网关组件在服务中的地位类似，茎部代表用户入口，绒毛代表服务，网关的内部逻辑就是连接的部分
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2daae5e734f943ddac23c408d995d350.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzQ2NTIxNzg1,size_16,color_FFFFFF,t_70)
 
 # 项目规范
 
